@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Expense Calculator</h1>
+    
+    <table id="expenseTable">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Amount ($)</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" class="category" placeholder="Enter category"></td>
+                <td><input type="number" class="amount" placeholder="Enter amount"></td>
+                <td>
+                    <button onclick="addRow(this)">Add</button>
+                    <button onclick="this.parentElement.parentElement.remove()">Remove</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button onclick="calculateExpenses()">Calculate</button>
+
+    <div class="results" id="results">
+        <h2>Results</h2>
+        <p>Total Expenses: $<span id="total">0</span></p>
+        <p>Average Daily Expense: $<span id="dailyAverage">0</span></p>
+        <h3>Top 3 Expenses:</h3>
+        <ul id="topExpenses"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
