@@ -114,3 +114,6 @@ Top-spending customer: Alice (18,000 )
 
 Average order value (total sales / number of orders): 5,750 
 
+
+![image](https://github.com/user-attachments/assets/afd5d54e-921e-42fc-a93e-d6d74cc39987)
+
