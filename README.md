@@ -58,11 +58,13 @@ Confirm the presence of the following attributes for each product:
 `price` (price) - must not be negative.
 `rating.rate` -  must not exceed 5.
 Generate a list of products containing defects.
+
+RESULTS:
 ![image](https://github.com/user-attachments/assets/746b98ea-d3a2-4418-91b5-1a348d37f9a8)
 
 
 
-3. SQL Queries: Analyzing a Database Online
+4. SQL Queries: Analyzing a Database Online
 Goal:
  Write SQL queries to analyze sales data for an online store.
 Tools to Use:
