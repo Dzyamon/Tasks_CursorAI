@@ -111,6 +111,9 @@ Total sales for March: 22,000
 
 Top-spending customer: Alice (18,000 )
 
+![image](https://github.com/user-attachments/assets/afd5d54e-921e-42fc-a93e-d6d74cc39987)
+
+
 !!! NEW DE !!!
 5. 
 A nightly job generates the “Yesterday Revenue & Refunds” CSV for Finance.
@@ -157,5 +160,4 @@ In Cursor: In the repo open revenue_report.sql, highlight the query, press Ctrl 
 Average order value (total sales / number of orders): 5,750 
 
 
-![image](https://github.com/user-attachments/assets/afd5d54e-921e-42fc-a93e-d6d74cc39987)
 
